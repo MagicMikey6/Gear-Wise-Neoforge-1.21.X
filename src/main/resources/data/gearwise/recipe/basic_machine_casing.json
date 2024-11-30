@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:oak_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "IWI",
+    "SIS"
+  ],
+  "result": {
+    "count": "1",
+    "id": "gearwise:basic_machine_casing"
+  }
+}

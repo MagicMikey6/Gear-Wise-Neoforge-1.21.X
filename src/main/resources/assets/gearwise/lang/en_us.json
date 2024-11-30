@@ -1,5 +1,8 @@
 {
   "item.gearwise.basic_mechanism": "Basic Mechanism",
 
-  "block.gearwise.basic_machine_casing": "Basic Machine Casing"
+  "block.gearwise.basic_machine_casing": "Basic Machine Casing",
+
+  "creativetab.gearwise.items_tab": "Gear Wise: Items",
+  "creativetab.gearwise.blocks_tab": "Gear Wise: Blocks"
 }
