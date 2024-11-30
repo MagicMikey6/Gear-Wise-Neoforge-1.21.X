@@ -1,5 +1,6 @@
 package net.magicmikey6.gearwise;
 
+import net.magicmikey6.gearwise.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -26,9 +27,9 @@ public class GearWise {
     public GearWise(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
-
-
         NeoForge.EVENT_BUS.register(this);
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
