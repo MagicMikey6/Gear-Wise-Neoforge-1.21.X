@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "geared:item/basic_mechanism"
+    "layer0": "gearwise:item/basic_mechanism"
   }
 }

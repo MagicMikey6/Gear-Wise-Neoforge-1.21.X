@@ -1,5 +1,6 @@
 package net.magicmikey6.gearwise;
 
+import net.magicmikey6.gearwise.block.ModBlocks;
 import net.magicmikey6.gearwise.item.ModItems;
 import org.slf4j.Logger;
 
@@ -30,6 +31,7 @@ public class GearWise {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

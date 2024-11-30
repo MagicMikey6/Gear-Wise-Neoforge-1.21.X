@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gearwise:block/basic_machine_casing"
+    }
+  }
+}
