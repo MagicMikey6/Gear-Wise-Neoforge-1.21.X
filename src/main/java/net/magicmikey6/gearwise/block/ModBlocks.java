@@ -19,7 +19,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> BASIC_MACHINE_CASING = registerBlock("basic_machine_casing",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(5.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(4.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
